@@ -7,7 +7,6 @@ ________________________________________________________________________________
 GENERAL DESCRIPTION:
 This imports the data of HD209458 binned at 100 days with an overplot of a data model that was generated using hard coded system parameters. 
 
-
 ___________________________________________________________________________________________________________________________________________________________________
 DATA DESCRIPTION:
 The data is the binned (100 days) lightcurve of HD209458. It is originally NASA IRTF data, and imported as 100binned.txt.  
@@ -17,14 +16,18 @@ CODE DESCRIPTION:
 The code uses matplotlib, numpy, pylab, and math Python packages to compute a model that reflects the empirical data. 
 
 The codes uses geometry to calculate the cross-section of the stellar surface covered by the planet (effectively overlapping circles) with the evolution dictated by 
-known physical parameters of the system implemented in the form of clsasical mechanics equations. 
+known physical parameters of the system implemented in the form of classical mechanics equations. 
+
 ___________________________________________________________________________________________________________________________________________________________________
 RUNNING THE CODE:
-1) I just wouldn't. It's not harmful to your machine, just obnoxious. 
 
-2) This is effectively a template for a new, functional GUI in the most recent Python version.
+1) Download the python script (transitModel_JWK.py) and the data (100binned.txt)
 
-3) Seriously, don't run this unless you want to manually delete the thousands of .txt and .sh files it generates.
+2) In a terminal, cd into the directory that now contains the script
+
+3) Run the script by typing the following into the command line:
+
+        python3.8 transitModel_JWK.py
 
    
 ___________________________________________________________________________________________________________________________________________________________________
