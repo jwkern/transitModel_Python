@@ -15,8 +15,8 @@ ________________________________________________________________________________
 CODE DESCRIPTION:
 The code uses matplotlib, numpy, pylab, and math Python packages to compute a model that reflects the empirical data. 
 
-The codes uses geometry to calculate the cross-section of the stellar surface covered by the planet (effectively overlapping circles) with the evolution dictated by 
-known physical parameters of the system implemented in the form of classical mechanics equations. 
+The codes uses geometry to calculate the cross-section of the stellar surface covered by the planet (effectively overlapping circles). The evolution is dictated by 
+known physical parameters of the system (e.g. stellar mass, semi-major axis, inclination, etc.) implemented in the form of classical mechanics equations (i.e. orbits). 
 
 ___________________________________________________________________________________________________________________________________________________________________
 RUNNING THE CODE:
